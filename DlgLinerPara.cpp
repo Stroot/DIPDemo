@@ -292,9 +292,9 @@ void CDlgLinerPara::OnPaint()
     // 水平轴
     pDC->LineTo ( 320, 280 );
     // 写坐标
-    str.Format ( "0" );
+    str.Format ( L"0" );
     pDC->TextOut ( 10, 281, str );
-    str.Format ( "255" );
+    str.Format ( L"255" );
     pDC->TextOut ( 265, 281, str );
     pDC->TextOut ( 11, 25, str );
     // 绘制X轴箭头
@@ -414,9 +414,9 @@ void CDlgLinerPara::OnPaint()
         }
         
     // 绘制坐标值
-    str.Format ( "(%d, %d)", x1, y1 );
+    str.Format ( L"(%d, %d)", x1, y1 );
     pDC->TextOut ( x1 + 10, 280 - y1 + 1, str );
-    str.Format ( "(%d, %d)", x2, y2 );
+    str.Format ( L"(%d, %d)", x2, y2 );
     pDC->TextOut ( x2 + 10, 280 - y2 + 1, str );
     // 绘制用户指定的线性变换直线（注意转换坐标系）
     pDC->MoveTo ( x1 + 10, 280 - y1 );

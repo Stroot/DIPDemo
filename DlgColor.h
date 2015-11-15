@@ -18,7 +18,7 @@ class CDlgColor : public CDialog {
         int m_nNameLen;
         
         // 颜色名称字符串数组指针
-        LPSTR m_lpColorName;
+		LPCTSTR m_lpColorName;
         
         // 颜色数目
         int m_nColorCount;

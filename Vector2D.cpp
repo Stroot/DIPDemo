@@ -175,7 +175,7 @@ BOOL CVector2D::RemoveNeighborPointFromVector (
                 
             catch ( ... )
                 {
-                    AfxMessageBox ( "	pts.erase(index[j]) error " );
+                    ::AfxMessageBox ( L"	pts.erase(index[j]) error " );
                 }
         }
         

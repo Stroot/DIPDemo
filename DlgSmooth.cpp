@@ -188,8 +188,8 @@ void CDlgSmooth::OnOK()
             ( m_iTempMY > m_iTempH - 1 ) )
         {
             // 提示用户参数设置错误
-            MessageBox ( "中心元素参数设置错误！",
-                         "系统提示" ,
+            MessageBox ( L"中心元素参数设置错误！",
+                         L"系统提示" ,
                          MB_ICONINFORMATION | MB_OK );
             // 返回
             return;

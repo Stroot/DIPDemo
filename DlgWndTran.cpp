@@ -82,17 +82,17 @@ void CDlgWndTran::OnPaint()
     // 水平轴
     pDC->LineTo ( 310, 240 );
     // 写X轴刻度值
-    str.Format ( "0" );
+    str.Format ( L"0" );
     pDC->TextOut ( 10, 243, str );
-    str.Format ( "50" );
+    str.Format ( L"50" );
     pDC->TextOut ( 60, 243, str );
-    str.Format ( "100" );
+    str.Format ( L"100" );
     pDC->TextOut ( 110, 243, str );
-    str.Format ( "150" );
+    str.Format ( L"150" );
     pDC->TextOut ( 160, 243, str );
-    str.Format ( "200" );
+    str.Format ( L"200" );
     pDC->TextOut ( 210, 243, str );
-    str.Format ( "255" );
+    str.Format ( L"255" );
     pDC->TextOut ( 260, 243, str );
     
     // 绘制X轴刻度

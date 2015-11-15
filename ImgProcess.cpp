@@ -174,7 +174,7 @@ void CImgProcess::Erode ( CImgProcess* pTo,
                                             
                                         else
                                             {
-                                                AfxMessageBox ( "结构元素含有非法值！请检查后重新设定。" );
+                                                AfxMessageBox ( L"结构元素含有非法值！请检查后重新设定。" );
                                                 return;
                                             }
                                 }//for l
@@ -252,7 +252,7 @@ void CImgProcess::Dilate ( CImgProcess* pTo,
                                         
                                     else
                                         {
-                                            AfxMessageBox ( "结构元素含有非法值！请检查后重新设定。" );
+                                            AfxMessageBox ( L"结构元素含有非法值！请检查后重新设定。" );
                                             return;
                                         }
                                 }//for l
@@ -1471,7 +1471,7 @@ void CImgProcess::LabelConnRgn ( CImgProcess* pTo,
                             
                             if ( nConnRgn > 255 )
                                 {
-                                    AfxMessageBox ( "目前该函数最多支持标注255个连通分量" );
+                                    AfxMessageBox ( L"目前该函数最多支持标注255个连通分量" );
                                     i = nHeight; //强制跳出外层循环
                                     break;
                                 }
@@ -2031,7 +2031,7 @@ void CImgProcess::PixelImage ( CImgProcess* pTo,
 {
     if ( upperThres < lowerThres )
         {
-            AfxMessageBox ( "上限阈值必须大于下限阈值！" );
+            AfxMessageBox ( L"上限阈值必须大于下限阈值！" );
             return;
         }
         
@@ -4692,7 +4692,7 @@ void CImgProcess::ImMove ( CImgProcess* pTo,
     
     if ( x > nWidth || y > nHeight )
         {
-            MessageBox ( NULL, "超过图片大小", "错误",
+            MessageBox ( NULL, L"超过图片大小", L"错误",
                          MB_OK | MB_ICONERROR );
             return;
         }

@@ -52,13 +52,13 @@ CImg CImg::operator & ( CImg& gray )
     
     if ( nHeight != gray.GetHeight() )
         {
-            AfxMessageBox ( "计算或运算的两幅图像必须具有相同的大小！运算失败，返回原图像。" );
+            AfxMessageBox ( L"计算或运算的两幅图像必须具有相同的大小！运算失败，返回原图像。" );
             return grayRet;
         }
         
     if ( nWidth != gray.GetWidthPixel() )
         {
-            AfxMessageBox ( "计算或运算的两幅图像必须具有相同的大小！运算失败，返回原图像。" );
+            AfxMessageBox ( L"计算或运算的两幅图像必须具有相同的大小！运算失败，返回原图像。" );
             return grayRet;
         }
         
@@ -83,13 +83,13 @@ CImg CImg::operator | ( CImg& gray )
     
     if ( nHeight != gray.GetHeight() )
         {
-            AfxMessageBox ( "计算或运算的两幅图像必须具有相同的大小！运算失败，返回原图像。" );
+            AfxMessageBox ( L"计算或运算的两幅图像必须具有相同的大小！运算失败，返回原图像。" );
             return grayRet;
         }
         
     if ( nWidth != gray.GetWidthPixel() )
         {
-            AfxMessageBox ( "计算或运算的两幅图像必须具有相同的大小！运算失败，返回原图像。" );
+            AfxMessageBox ( L"计算或运算的两幅图像必须具有相同的大小！运算失败，返回原图像。" );
             return grayRet;
         }
         

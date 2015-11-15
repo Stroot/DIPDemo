@@ -145,7 +145,7 @@ void CDlgMidFilter::OnOK()
             ( m_iFilterMY > m_iFilterH - 1 ) )
         {
             // 提示用户参数设置错误
-            MessageBox ( "参数设置错误！", "系统提示" ,
+            MessageBox ( L"参数设置错误！", L"系统提示" ,
                          MB_ICONINFORMATION | MB_OK );
             // 返回
             return;

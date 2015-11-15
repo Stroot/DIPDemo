@@ -341,7 +341,7 @@ void CDIPDemoView::OnViewIntensity()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -380,7 +380,7 @@ void CDIPDemoView::OnPointLiner()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -435,7 +435,7 @@ void CDIPDemoView::OnPointThre()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -477,7 +477,7 @@ void CDIPDemoView::OnPointWind()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -517,7 +517,7 @@ void CDIPDemoView::OnPointEqua()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -544,7 +544,7 @@ void CDIPDemoView::OnGeomTran()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -594,7 +594,7 @@ void CDIPDemoView::OnGeomMirv()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -625,7 +625,7 @@ void CDIPDemoView::OnGeomMirh()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -656,7 +656,7 @@ void CDIPDemoView::OnGeomTrpo()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -687,7 +687,7 @@ void CDIPDemoView::OnGeomZoom()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -734,7 +734,7 @@ void CDIPDemoView::OnGeomRota()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -782,7 +782,7 @@ void CDIPDemoView::OnGeomCali()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -866,7 +866,7 @@ void CDIPDemoView::OnEnhaSmooth()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -934,7 +934,7 @@ void CDIPDemoView::OnENHAMidianF()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -990,7 +990,7 @@ void CDIPDemoView::OnENHAAdaptMidianF()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -1047,7 +1047,7 @@ void CDIPDemoView::OnEnhaGradsharp()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -1078,7 +1078,7 @@ void CDIPDemoView::OnEnhaSharp()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -1121,7 +1121,7 @@ void CDIPDemoView::OnEnhaHighenha()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -1163,7 +1163,7 @@ void CDIPDemoView::OnFreqFour()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -1194,7 +1194,7 @@ void CDIPDemoView::OnMorphErosion()
     // 检查图像是二值图
     if ( !imgInput.IsBinaryImg() )
         {
-            AfxMessageBox ( "不是二值图像，无法处理！" );
+            AfxMessageBox ( L"不是二值图像，无法处理！" );
             return;
         }
         
@@ -1244,7 +1244,7 @@ void CDIPDemoView::OnMorphOpen()
     // 检查图像是二值图
     if ( !imgInput.IsBinaryImg() )
         {
-            AfxMessageBox ( "不是二值图像，无法处理！" );
+            AfxMessageBox ( L"不是二值图像，无法处理！" );
             return;
         }
         
@@ -1295,7 +1295,7 @@ void CDIPDemoView::OnMorphTrace()
     // 检查图像是二值图
     if ( !imgInput.IsBinaryImg() )
         {
-            AfxMessageBox ( "不是二值图像，无法处理！" );
+            AfxMessageBox ( L"不是二值图像，无法处理！" );
             return;
         }
         
@@ -1325,7 +1325,7 @@ void CDIPDemoView::OnMorphFillrgn()
     // 检查图像是二值图
     if ( !imgInput.IsBinaryImg() )
         {
-            AfxMessageBox ( "不是二值图像，无法处理！" );
+            AfxMessageBox ( L"不是二值图像，无法处理！" );
             return;
         }
         
@@ -1359,7 +1359,7 @@ void CDIPDemoView::OnMorphLabelconnrgn()
     // 检查图像是二值图
     if ( !imgInput.IsBinaryImg() )
         {
-            AfxMessageBox ( "不是二值图像，无法处理！" );
+            AfxMessageBox ( L"不是二值图像，无法处理！" );
             return;
         }
         
@@ -1389,7 +1389,7 @@ void CDIPDemoView::OnMorphThining()
     // 检查图像是二值图
     if ( !imgInput.IsBinaryImg() )
         {
-            AfxMessageBox ( "不是二值图像，无法处理！" );
+            AfxMessageBox ( L"不是二值图像，无法处理！" );
             return;
         }
         
@@ -1419,7 +1419,7 @@ void CDIPDemoView::OnMorphPixel()
     // 检查图像是二值图
     if ( !imgInput.IsBinaryImg() )
         {
-            AfxMessageBox ( "不是二值图像，无法处理！" );
+            AfxMessageBox ( L"不是二值图像，无法处理！" );
             return;
         }
         
@@ -1455,7 +1455,7 @@ void CDIPDemoView::OnMorphConvex()
     // 检查图像是二值图
     if ( !imgInput.IsBinaryImg() )
         {
-            AfxMessageBox ( "不是二值图像，无法处理！" );
+            AfxMessageBox ( L"不是二值图像，无法处理！" );
             return;
         }
         
@@ -1485,7 +1485,7 @@ void CDIPDemoView::OnMorphClose()
     // 检查图像是二值图
     if ( !imgInput.IsBinaryImg() )
         {
-            AfxMessageBox ( "不是二值图像，无法处理！" );
+            AfxMessageBox ( L"不是二值图像，无法处理！" );
             return;
         }
         
@@ -1535,7 +1535,7 @@ void CDIPDemoView::OnMorphDilation()
     // 检查图像是二值图
     if ( !imgInput.IsBinaryImg() )
         {
-            AfxMessageBox ( "不是二值图像，无法处理！" );
+            AfxMessageBox ( L"不是二值图像，无法处理！" );
             return;
         }
         
@@ -1585,7 +1585,7 @@ void CDIPDemoView::OnMorphGraydilate()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -1644,7 +1644,7 @@ void CDIPDemoView::OnMorphGrayerode()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -1702,7 +1702,7 @@ void CDIPDemoView::OnMorphGrayopen()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -1759,7 +1759,7 @@ void CDIPDemoView::OnMorphGrayclose()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -1816,7 +1816,7 @@ void CDIPDemoView::OnMorphTophat()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -1875,7 +1875,7 @@ void CDIPDemoView::OnPointStdlin()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -1911,7 +1911,7 @@ void CDIPDemoView::OnPointLog()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -1944,7 +1944,7 @@ void CDIPDemoView::OnPointGamma()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -1979,7 +1979,7 @@ void CDIPDemoView::OnPointHistst()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -1992,7 +1992,7 @@ void CDIPDemoView::OnPointHistst()
     CString filePath;
     // 打开文件对话框，如果用户点击取消则返回
     CFileDialog openDlg ( TRUE, 0, 0, 4 | 2,
-                          "Bitmap Files (*.bmp)||" );
+                          L"Bitmap Files (*.bmp)||" );
                           
     if ( openDlg.DoModal() == IDOK )
         {
@@ -2010,7 +2010,7 @@ void CDIPDemoView::OnPointHistst()
     // 检查图像是灰度图
     if ( pStdImage->m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -2061,7 +2061,7 @@ void CDIPDemoView::OnFileReverse()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -2088,7 +2088,7 @@ void CDIPDemoView::OnEdgeRobert()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -2120,7 +2120,7 @@ void CDIPDemoView::OnEdgeSobel()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -2156,7 +2156,7 @@ void CDIPDemoView::OnEdgePrewitt()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -2190,7 +2190,7 @@ void CDIPDemoView::OnEdgeLog()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -2215,7 +2215,7 @@ void CDIPDemoView::OnEdgeAutothre()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -2239,7 +2239,7 @@ void CDIPDemoView::OnFreqIdeallpf()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -2281,7 +2281,7 @@ void CDIPDemoView::OnFreqGausslpf()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -2324,7 +2324,7 @@ void CDIPDemoView::OnFreqGausshpf()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -2367,7 +2367,7 @@ void CDIPDemoView::OnFreqLapl()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -2403,7 +2403,7 @@ void CDIPDemoView::OnFreqGaussbr()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -2447,7 +2447,7 @@ void CDIPDemoView::OnEdgeCanny()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -2473,7 +2473,7 @@ void CDIPDemoView::OnLButtonDblClk ( UINT nFlags,
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -2542,7 +2542,7 @@ void CDIPDemoView::OnEdgeHough()
     // 检查图像是二值图像
     if ( !imgInput.IsBinaryImg() )
         {
-            AfxMessageBox ( "不是二值图像，无法处理！" );
+            AfxMessageBox ( L"不是二值图像，无法处理！" );
             return;
         }
         
@@ -2604,7 +2604,7 @@ void CDIPDemoView::OnFileConvertgray()
     // 检查图像是256色图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是256色图像，无法处理！" );
+            AfxMessageBox ( L"不是256色图像，无法处理！" );
             return;
         }
         
@@ -2628,7 +2628,7 @@ void CDIPDemoView::OnFileClean()
     // 检查图像是灰度图
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -2651,7 +2651,7 @@ void CDIPDemoView::OnColorCmy2rgb()
     // 检查图像是24位图像
     if ( imgInput.m_pBMIH->biBitCount != 24 )
         {
-            AfxMessageBox ( "不是24位图像，无法处理！" );
+            AfxMessageBox ( L"不是24位图像，无法处理！" );
             return;
         }
         
@@ -2675,7 +2675,7 @@ void CDIPDemoView::OnColorRgb2hsi()
     // 检查图像是RGB图像
     if ( imgInput.m_pBMIH->biBitCount != 24 )
         {
-            AfxMessageBox ( "不是RGB图像，无法处理！" );
+            AfxMessageBox ( L"不是RGB图像，无法处理！" );
             return;
         }
         
@@ -2699,7 +2699,7 @@ void CDIPDemoView::OnColorHsi2rgb()
     // 检查图像是24位图像
     if ( imgInput.m_pBMIH->biBitCount != 24 )
         {
-            AfxMessageBox ( "不是24位图像，无法处理！" );
+            AfxMessageBox ( L"不是24位图像，无法处理！" );
             return;
         }
         
@@ -2723,7 +2723,7 @@ void CDIPDemoView::OnColorRgb2hsv()
     // 检查图像是RGB图像
     if ( imgInput.m_pBMIH->biBitCount != 24 )
         {
-            AfxMessageBox ( "不是RGB图像，无法处理！" );
+            AfxMessageBox ( L"不是RGB图像，无法处理！" );
             return;
         }
         
@@ -2747,7 +2747,7 @@ void CDIPDemoView::OnColorHsv2rgb()
     // 检查图像是24位图像
     if ( imgInput.m_pBMIH->biBitCount != 24 )
         {
-            AfxMessageBox ( "不是24位图像，无法处理！" );
+            AfxMessageBox ( L"不是24位图像，无法处理！" );
             return;
         }
         
@@ -2771,7 +2771,7 @@ void CDIPDemoView::OnColorRgb2yuv()
     // 检查图像是RGB图像
     if ( imgInput.m_pBMIH->biBitCount != 24 )
         {
-            AfxMessageBox ( "不是RGB图像，无法处理！" );
+            AfxMessageBox ( L"不是RGB图像，无法处理！" );
             return;
         }
         
@@ -2795,7 +2795,7 @@ void CDIPDemoView::OnColorYuv2rgb()
     // 检查图像是24位图像
     if ( imgInput.m_pBMIH->biBitCount != 24 )
         {
-            AfxMessageBox ( "不是24位图像，无法处理！" );
+            AfxMessageBox ( L"不是24位图像，无法处理！" );
             return;
         }
         
@@ -2819,7 +2819,7 @@ void CDIPDemoView::OnColorRgb2yiq()
     // 检查图像是RGB图像
     if ( imgInput.m_pBMIH->biBitCount != 24 )
         {
-            AfxMessageBox ( "不是RGB图像，无法处理！" );
+            AfxMessageBox ( L"不是RGB图像，无法处理！" );
             return;
         }
         
@@ -2843,7 +2843,7 @@ void CDIPDemoView::OnColorYiq2rgb()
     // 检查图像是24位图像
     if ( imgInput.m_pBMIH->biBitCount != 24 )
         {
-            AfxMessageBox ( "不是24位图像，无法处理！" );
+            AfxMessageBox ( L"不是24位图像，无法处理！" );
             return;
         }
         
@@ -2870,7 +2870,7 @@ void CDIPDemoView::OnRecTemplate()
     // 检查图像是灰度图像
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -2878,7 +2878,7 @@ void CDIPDemoView::OnRecTemplate()
     CImgProcess imgOutput = imgInput;
     CImgProcess TplImage; //模板图像
     //弹出对话框让用户选择模板图像
-    CFileDialog dlg ( TRUE, "bmp", "*.bmp" );
+    CFileDialog dlg ( TRUE, L"bmp", L"*.bmp" );
     
     if ( dlg.DoModal() == IDOK )
         {
@@ -2898,8 +2898,8 @@ void CDIPDemoView::OnRecTemplate()
     if ( nTplHeight > nHeight || nTplWidth > nWidth )
         {
             // 提示用户
-            MessageBox ( "模板尺寸大于源图像尺寸！",
-                         "系统提示", MB_ICONINFORMATION | MB_OK );
+            MessageBox ( L"模板尺寸大于源图像尺寸！",
+                         L"系统提示", MB_ICONINFORMATION | MB_OK );
             return;
         }
         
@@ -2926,7 +2926,7 @@ void CDIPDemoView::OnFeaGraymat()
     // 检查图像是灰度图像
     if ( imgInput.m_pBMIH->biBitCount != 8 )
         {
-            AfxMessageBox ( "不是8-bpp灰度图像，无法处理！" );
+            AfxMessageBox ( L"不是8-bpp灰度图像，无法处理！" );
             return;
         }
         
@@ -2950,7 +2950,7 @@ void CDIPDemoView::OnFeaGraymat()
     int m = GrayMat.size();
     int n = GrayMat[0].size();
     //弹出对话框，显示灰度共现矩阵
-    str.Format ( "{%d %d %d;%d %d %d;%d %d %d}",
+    str.Format ( L"{%d %d %d;%d %d %d;%d %d %d}",
                  GrayMat[0][0], GrayMat[0][1], GrayMat[0][2],
                  GrayMat[1][0], GrayMat[1][1], GrayMat[1][2],
                  GrayMat[2][0], GrayMat[2][1], GrayMat[2][2] );

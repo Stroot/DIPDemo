@@ -268,9 +268,9 @@ void CDlgPointWin::OnPaint()
     // 水平轴
     pDC->LineTo ( 320, 280 );
     // 写坐标
-    str.Format ( "0" );
+    str.Format ( L"0" );
     pDC->TextOut ( 10, 281, str );
-    str.Format ( "255" );
+    str.Format ( L"255" );
     pDC->TextOut ( 265, 281, str );
     pDC->TextOut ( 11, 25, str );
     // 绘制X轴箭头
@@ -292,9 +292,9 @@ void CDlgPointWin::OnPaint()
     // 更改成蓝色画笔
     pDC->SelectObject ( pPenBlue );
     // 绘制坐标值
-    str.Format ( "(%d, %d)", m_bLow, m_bLow );
+    str.Format ( L"(%d, %d)", m_bLow, m_bLow );
     pDC->TextOut ( m_bLow + 10, 281 - m_bLow, str );
-    str.Format ( "(%d, %d)", m_bUp, m_bUp );
+    str.Format ( L"(%d, %d)", m_bUp, m_bUp );
     pDC->TextOut ( m_bUp + 10, 281 - m_bUp, str );
     // 绘制用户指定的窗口（注意转换坐标系）
     pDC->MoveTo ( 10, 280 );

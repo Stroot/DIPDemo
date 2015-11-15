@@ -167,7 +167,7 @@ BOOL CDIPDemoDoc::OnOpenDocument ( LPCTSTR
     if ( !m_Image.AttachFromFile ( lpszPathName ) )
         {
             EndWaitCursor();
-            AfxMessageBox ( "打开文件时出错!请确保正确的位图(*.bmp)文件类型。" );
+            AfxMessageBox ( L"打开文件时出错!请确保正确的位图(*.bmp)文件类型。" );
             return FALSE;
         }
         
@@ -179,9 +179,9 @@ BOOL CDIPDemoDoc::OnOpenDocument ( LPCTSTR
         {
             // 失败，可能非BMP格式
             CString strMsg;
-            strMsg = "读取图像时出错！可能是不支持该类型的图像文件！";
+            strMsg = L"读取图像时出错！可能是不支持该类型的图像文件！";
             // 提示出错
-            MessageBox ( NULL, strMsg, "系统提示",
+            MessageBox ( NULL, strMsg, L"系统提示",
                          MB_ICONINFORMATION | MB_OK );
             // 返回FALSE
             return FALSE;
@@ -207,8 +207,8 @@ void CDIPDemoDoc::OnFileReopen()
         {
             // 提示用户该操作将丢失所有当前的修改
             if ( MessageBox ( NULL,
-                              "重新打开图像将丢失所有改动！是否继续？",
-                              "系统提示", MB_ICONQUESTION | MB_YESNO ) == IDNO )
+                              L"重新打开图像将丢失所有改动！是否继续？",
+                              L"系统提示", MB_ICONQUESTION | MB_YESNO ) == IDNO )
                 {
                     // 用户取消操作，直接返回
                     return;
@@ -224,7 +224,7 @@ void CDIPDemoDoc::OnFileReopen()
     if ( !m_Image.AttachFromFile ( strPathName ) )
         {
             EndWaitCursor();
-            AfxMessageBox ( "打开文件时出错!请确保正确的位图(*.bmp)文件类型。" );
+            AfxMessageBox ( L"打开文件时出错!请确保正确的位图(*.bmp)文件类型。" );
             return;
         }
         
@@ -233,9 +233,9 @@ void CDIPDemoDoc::OnFileReopen()
         {
             // 失败，可能非BMP格式
             CString strMsg;
-            strMsg = "读取图像时出错！可能是不支持该类型的图像文件！";
+            strMsg = L"读取图像时出错！可能是不支持该类型的图像文件！";
             // 提示出错
-            MessageBox ( NULL, strMsg, "系统提示",
+            MessageBox ( NULL, strMsg, L"系统提示",
                          MB_ICONINFORMATION | MB_OK );
             // 返回
             return;
@@ -258,9 +258,9 @@ BOOL CDIPDemoDoc::OnSaveDocument ( LPCTSTR
     if ( !m_Image.SaveToFile ( lpszPathName ) )
         {
             CString strMsg;
-            strMsg = "无法保存BMP图像！";
+            strMsg = L"无法保存BMP图像！";
             // 提示出错
-            MessageBox ( NULL, strMsg, "系统提示",
+            MessageBox ( NULL, strMsg, L"系统提示",
                          MB_ICONINFORMATION | MB_OK );
             return FALSE;
         }
