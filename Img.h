@@ -30,7 +30,7 @@ class CImg {
         void operator = ( CImg& gray ); //图像赋值
         
         BOOL operator == ( CImg&
-                           gray ); //判断2幅图像是否相同
+                           gray ) const ; //判断2幅图像是否相同
         CImg operator & ( CImg& gray ); //图像按位与
         CImg operator | ( CImg& gray ); //图像按位或
         CImg operator + ( CImg gray ); //图像相加
@@ -64,17 +64,17 @@ class CImg {
         // 设置像素的值
         void SetPixel ( int x, int y, COLORREF color );
         // 获取像素的值
-        COLORREF GetPixel ( int x, int y );
+        COLORREF GetPixel ( int x, int y ) const;
         // 获取灰度值
-        BYTE GetGray ( int x, int y );
+        BYTE GetGray ( int x, int y ) const;
         
         
         // 获取一行的字节数
-        int GetWidthByte();
+        int GetWidthByte() const;
         // 获取一行的像素数
-        int GetWidthPixel();
+        int GetWidthPixel() const;
         // 获取高度
-        int GetHeight();
+        int GetHeight() const;
         
         //改变位图的尺寸
         void ImResize ( int nHeight, int nWidth );
@@ -93,16 +93,16 @@ class CImg {
         
     public:
         // 判断是否是二值图像
-        BOOL IsBinaryImg();
+        BOOL IsBinaryImg() const;
         // 判断是否是索引图像
-        BOOL IsIndexedImg();
+        BOOL IsIndexedImg() const;
         // 256色索引图像转灰度图像
         bool Index2Gray();
         
-        LPVOID GetColorTable() {
+        LPVOID GetColorTable() const {
             return m_lpvColorTable;
         }
-        int GetColorTableEntriesNum() {
+        int GetColorTableEntriesNum() const {
             return m_nColorTableEntries;
         }
     private:
@@ -132,7 +132,7 @@ class CImg {
     返回值：
     int类型，返回图像每行占用的字节数
 ***************************************************/
-inline int CImg::GetWidthByte()
+inline int CImg::GetWidthByte() const
 {
     return WIDTHBYTES ( ( m_pBMIH->biWidth ) *
                         m_pBMIH->biBitCount );
@@ -151,7 +151,7 @@ inline int CImg::GetWidthByte()
     返回值：
     int类型，返回图像每行的像素数目
 ***************************************************/
-inline int CImg::GetWidthPixel()
+inline int CImg::GetWidthPixel() const
 {
     return m_pBMIH->biWidth;
 }
@@ -169,7 +169,7 @@ inline int CImg::GetWidthPixel()
     返回值：
     int类型，返回图像每列的像素数目
 ***************************************************/
-inline int CImg::GetHeight()
+inline int CImg::GetHeight() const
 {
     return m_pBMIH->biHeight;
 }
@@ -186,7 +186,7 @@ inline int CImg::GetHeight()
     返回值：
     给定像素位置的灰度值
 ***************************************************/
-inline BYTE CImg::GetGray ( int x, int y )
+inline BYTE CImg::GetGray ( int x, int y ) const
 {
     COLORREF ref = GetPixel ( x, y );
     BYTE r, g, b, byte;
@@ -215,7 +215,7 @@ inline BYTE CImg::GetGray ( int x, int y )
     返回值：
     COLERREF类型，返回用RGB形式表示的指定位置的颜色值
 ***************************************************/
-inline COLORREF CImg::GetPixel ( int x, int y )
+inline COLORREF CImg::GetPixel ( int x, int y ) const
 {
     if ( m_pBMIH->biBitCount == 8 )     // 256色图
         {
@@ -259,7 +259,7 @@ inline COLORREF CImg::GetPixel ( int x, int y )
                 }
 }
 
-inline BOOL CImg::IsBinaryImg()
+inline BOOL CImg::IsBinaryImg() const
 {
     int i, j;
     
@@ -277,7 +277,7 @@ inline BOOL CImg::IsBinaryImg()
     return TRUE;
 }
 
-inline BOOL CImg::IsIndexedImg()
+inline BOOL CImg::IsIndexedImg() const
 {
     if ( ( m_lpvColorTable != NULL ) &&
             ( m_nColorTableEntries != 0 ) )

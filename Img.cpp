@@ -21,7 +21,7 @@ CImg::CImg()
     m_lpData = NULL;
 }
 
-BOOL CImg::operator == ( CImg& gray )
+BOOL CImg::operator == ( CImg& gray ) const
 {
     int nHeight = GetHeight();
     int nWidth = GetWidthPixel();
